@@ -1,0 +1,71 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/inter/Inter-Bold.ttf);
+    font-weight: bold;
+  }
+
+div, a {
+    font-family: inter;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 56px;
+}
+
+.text {
+    font-size: 52px;
+}
+
+.link {
+    margin-top: 50px; 
+}
+
+.social-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    font-size: 36px;
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: rgb(149, 149, 149);
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 200px;
+}
